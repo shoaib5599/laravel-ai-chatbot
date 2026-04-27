@@ -152,11 +152,11 @@ Open:
 
 ### Login Screen
 
-![Login Screen](docs/screenshots/login.png)
+![Login Screen](https://github.com/shoaib5599/laravel-ai-chatbot/blob/a11d4c31cf0e32161ea07783b5884a7966aee7d2/login.png)
 
 ### Dashboard
 
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](https://github.com/shoaib5599/laravel-ai-chatbot/blob/765d47aaf121cb37feac023a17d5e8dd24e3068a/dashboard.png)
 
 ### AI Chatbot
 
