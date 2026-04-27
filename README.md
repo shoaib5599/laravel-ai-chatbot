@@ -164,7 +164,7 @@ Open:
 
 ### RAG Knowledge Example
 
-![RAG Knowledge](docs/screenshots/rag-knowledge.png)
+![RAG Knowledge](https://github.com/shoaib5599/laravel-ai-chatbot/blob/b916210e7221930a590dcaa740664088fa76798c/Rag.png)
 
 ---
 
