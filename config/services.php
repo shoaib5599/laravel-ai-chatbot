@@ -44,6 +44,8 @@ return [
     'rag' => [
         'top_k' => env('RAG_TOP_K', 3),
         'max_context_chars' => env('RAG_MAX_CONTEXT_CHARS', 5000),
+        'min_relevance_score' => env('RAG_MIN_RELEVANCE_SCORE', 2),
+        'min_token_coverage' => env('RAG_MIN_TOKEN_COVERAGE', 0.6),
     ],
 
 ];

@@ -24,7 +24,9 @@ class ChatService implements ChatServiceInterface
     {
         $chat = $this->chatRepository->storeChatMessage($userId, $message);
         $prompt = $this->ragService->buildPromptWithContext($message);
-        $aiResponse = $this->aiService->sendMessage($prompt);
+        $aiResponse = $prompt === RagService::NO_CONTEXT_SENTINEL
+            ? RagService::NO_CONTEXT_MESSAGE
+            : $this->aiService->sendMessage($prompt);
         $updatedChat = $this->chatRepository->storeAiResponse((int) $chat->id, $aiResponse);
 
         return [
