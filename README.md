@@ -146,6 +146,15 @@ Open:
 
 ---
 
+## Tech Stack
+- Backend: Laravel
+- Frontend: Blade (Laravel)
+- AI Integration: OpenAI API / Local LLM (Ollama)
+- Database: MySQL
+- Version Control: Git & GitHub
+
+---
+
 ## Screenshots
 
 > Add your screenshots in a folder like `docs/screenshots/` and update paths below.
@@ -226,9 +235,43 @@ Web session authentication (Laravel auth middleware).
 ```bash
 php artisan test
 ```
+## How It Works
+
+- User sends message via UI
+- Laravel sends request to AI API
+- AI processes and returns response
+- Laravel displays response in chat
+
+---
+
+## Future Improvements
+
+- PDF upload + AI Q&A (RAG)
+- Image understanding
+- Multi-language support
+- Role-based chatbot access
+
+---
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
 
 ---
 
 ## License
 
 This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
+
+---
+
+## Author
+
+Shoaib Ali
+Laravel Backend Developer
+
+---
+
+## Support
+
+If you like this project, give it a ⭐ on GitHub!
