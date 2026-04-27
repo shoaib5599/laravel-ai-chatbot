@@ -160,7 +160,7 @@ Open:
 
 ### AI Chatbot
 
-![AI Chatbot](docs/screenshots/chatbot.png)
+![AI Chatbot](https://github.com/shoaib5599/laravel-ai-chatbot/blob/765d47aaf121cb37feac023a17d5e8dd24e3068a/chatbot.png)
 
 ### RAG Knowledge Example
 
